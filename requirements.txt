@@ -1,2 +1,2 @@
-django
-numpy
+django == 4.1.7
+numpy == 1.24.2
