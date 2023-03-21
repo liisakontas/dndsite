@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import HomeView, WeatherView
+from .views import HomeView, WeatherView, WildMagicView
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
-    path('weather', WeatherView.as_view(), name='weather')
+    path('weather', WeatherView.as_view(), name='weather'),
+    path('wildmagicupload', WildMagicView.as_view(), name='wildmagic')
 ]
