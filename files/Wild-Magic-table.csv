@@ -1,0 +1,101 @@
+d100,Effect,Spell or creature link
+1,"Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.",
+2,Weapons in 60’ radius turn to food for 1 minute,
+3,"For the next minute, you can see any invisible creature if you have line of sight to it.",
+4,You expend your lowest-level spell slot.,
+5,"1-3 Imps (chosen by DM) and controlled by the DM appear in an unoccupied space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/16933-imp
+6,"You start to manically cackle as energy surges through you, it suddenly dissapears as quickly as it came",
+7,You cast fireball as a 3rd-level spell centered on yourself.,https://www.dndbeyond.com/spells/fireball
+8,"Your hair changes colour roll a d6 to determine colour: 1 red, 2 blonde, 3 brown, 4 white, 5 green, 6 pink. Can be removed with remove curse or dispel magic.",
+9,You cast magic missile as a 5th-level spell.,https://www.dndbeyond.com/spells/magic-missile
+10,"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/17042-unicorn
+11,"Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow. This illusory effect can be fixed with remove curse.",
+12,"An ominous, dread feeling takes over all within 30 ft of you for 1 minute",
+13,You cast confusion centered on yourself.,https://www.dndbeyond.com/spells/confusion
+14,Cast thunder wave centered on self,https://www.dndbeyond.com/spells/thunderwave
+15,"For the next minute, you regain 5 hit points at the start of each of your turns.",
+16,You gain the ability to walk on water for 1 day.,
+17,"You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face.",
+18,You cast the darkness spell centered on yourself.,https://www.dndbeyond.com/spells/darkness
+19,You cast grease centered on yourself.,https://www.dndbeyond.com/spells/grease
+20,You cast Chromatic Orb,https://www.dndbeyond.com/spells/chromatic-orb
+21,Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw.,
+22,Caster can speak to animals for 24 hours,https://www.dndbeyond.com/spells/speak-with-animals
+23,Your skin turns a vibrant shade of blue. A remove curse spell can end this effect.,
+24,Allies gain 5 temp HP for 1 minute,
+25,"An eye appears on your forehead for the next hour. During that time, you have advantage on Wisdom (Perception) checks that rely on sight.",
+26,A mature oak sprouts in an unoccupied space in 60’,
+27,"For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action.",
+28,"You can detect magic as if by the spell Detect Magic, for the next hour",https://www.dndbeyond.com/spells/detect-magic
+29,You teleport up to 60 feet to an unoccupied space of your choice that you can see.,
+30,"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/17042-unicorn
+31,"You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied.",
+32,You cast Chaos Bolt,https://www.dndbeyond.com/spells/chaos-bolt
+33,Maximize the damage of the next damaging spell you cast within the next minute.,
+34,Allies gain +1 AC for 1 minute,
+35,"Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older. This illusory effect can be fixed with remove curse.",
+36,You gain darkvision (60 feet) for a 24 hours,
+37,1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute.,
+38,You gain a +1 to your AC for one minute.,
+39,You regain 2d10 hit points.,
+40,You switch places with a random creature within 60ft,
+41,"You turn into a pile of goo until the start of your next turn. While goo, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points your form reverts.",
+42,A small rain /snow cloud follows you for an hour.,
+43,"For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns.",
+44,Every creature within 60ft is now drunk for 2d6 hours,
+45,You cast levitate on yourself.,https://www.dndbeyond.com/spells/levitate
+46,Large floating eye follows caster for 1 hour,
+47,"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/17042-unicorn
+48,You expend your highest-level spell slot.,
+49,"You can’t speak for the next minute. Whenever you try, only gibberish comes out of your mouth.",
+50,You cast Colour Spray,https://www.dndbeyond.com/spells/color-spray
+51,"A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to magic missile.",
+52,For the next 1d6 hours you gain a shadow copy of yourself that mimics every action but cant interract with anything,
+53,You are immune to being intoxicated by alcohol for the next 5d6 days.,
+54,"You can detect evil and good as if by the spell Detect Evil and Good, for the next hour",https://www.dndbeyond.com/spells/detect-evil-and-good
+55,Your hair falls out but grows back within 24 hours.,
+56,You become intoxicated for 2d6 hours.,
+57,"For the next minute, any flammable object you touch that isn’t being worn or carried by another creature bursts into flame.",
+58,"You self immolate, burn to death then ressurect all before the start of your next turn",
+59,You regain your lowest-level expended spell slot.,
+60,You switch the places of two random creatures within 60ft,
+61,"For the next minute, you must speak Abyssal when you speak.",
+62,You gain the service of a 2nd-level spiritual weapon for 1 minute.,https://www.dndbeyond.com/spells/spiritual-weapon
+63,You cast fog cloud centered on yourself.,https://www.dndbeyond.com/spells/fog-cloud
+64,1d6 Gray Oozes appear withing 40 ft of you.,https://www.dndbeyond.com/monsters/16909-gray-ooze
+65,Up to three creatures you choose within 30 feet of you take 4d10 lightning damage.,
+66,You cast Ice Knife,https://www.dndbeyond.com/spells/ice-knife
+67,You are frightened by the nearest creature until the end of your next turn.,
+68,"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/17042-unicorn
+69,Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell.,
+70,All creatures within 20 feet of you are knocked prone.,
+71,You gain resistance to all damage for the next minute.,
+72,"One creature of your choice gets a +2 bonus to all attack rolls, damage rolls, and their armor class AC for 1 minute.",
+73,A random creature within 60 feet of you becomes poisoned for 1d4 hours.,
+74,You gain the abilities of the spell Comprehend Languages for the next hour.,https://www.dndbeyond.com/spells/comprehend-languages
+75,You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn.,
+76,All creatures that can perceive you must make a Wisdom saving throw against your spell save DC or be frightened of you.,
+77,"You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell’s duration.",
+78,You cast Detect Thoughts on the nearest creature.,https://www.dndbeyond.com/spells/detect-thoughts
+79,Illusory images of flames and figures engulfed by them flicker in the air within 10 feet of you for the next minute.,
+80,"Within 10 ft of you a berry bush sprouts, blooms and carries fruit with the effect of Goodberry ",https://www.dndbeyond.com/spells/goodberry
+81,You can take one additional action immediately.,
+82,You can cast Gust of Wind in a direction you choose,https://www.dndbeyond.com/spells/gust-of-wind
+83,Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt.,
+84,You can cast Bane on one creature within 60 ft you can see.,https://www.dndbeyond.com/spells/bane
+85,You cast mirror image.,https://www.dndbeyond.com/spells/mirror-image
+86,1d6 snakes shoot out of your hands to 10ft of you.,
+87,You cast fly on a random creature within 60 feet of you.,https://www.dndbeyond.com/spells/fly
+88,Cabbages sprout abundantly within a 30’ radius and every time someone tramples them you feel the need to shout out my cabbages,
+89,"You become invisible for the next minute. During that time, other creatures can’t hear you. The invisibility ends if you attack or cast a spell.",https://www.dndbeyond.com/spells/invisibility
+90,You cast Flaming Sphere,https://www.dndbeyond.com/spells/flaming-sphere
+91,"If you die within the next hour, you immediately come back to life as if by the resurrection spell.",
+92,"For 1 minute, you gain resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+93,Your size increases by one size category for the next minute.,
+94,"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.",https://www.dndbeyond.com/monsters/17042-unicorn
+95,You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute.,
+96,Your next spell is functions 1 level higher than actually cast.,
+97,"You are surrounded by faint, ethereal music for the next minute.",
+98,Switch the places of two creatures within 100ft,
+99,You regain your highest-level expended spell slot.,
+100,You regain all expended sorcery points.,
