@@ -1,3 +1,15 @@
-{% for item in magic %}
-<p>{{item.dice_value}}{{item.effect}}</p>
-{% endfor %}
+
+<form action="{% url "wildmagic" %}" method="post">
+    {{form.as_p}}
+    {% csrf_token %}
+    <input type="submit" value="OK">
+</form>
+
+{% if magic %}
+    <p>{{magic.dice_value}}, {{magic.effect}}</p>
+{% else %}
+    <p>Ya done goofed up dawg</p>
+{% endif %}
+{% if magic.urls %}
+    <a href="{{magic.urls}}" target="_blank">{{magic.urls}}</a>
+{% endif %}
