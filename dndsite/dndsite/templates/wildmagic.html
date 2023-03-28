@@ -1,15 +1,41 @@
+{% load static %}
 
-<form action="{% url "wildmagic" %}" method="post">
-    {{form.as_p}}
-    {% csrf_token %}
-    <input type="submit" value="OK">
-</form>
+<head>
+    <script defer src="{% static 'js/wildmagic.js' %}"></script>  
+    <link rel="stylesheet" type='text/css' href="{% static 'css/styles.css' %}">
+    <script>
+        var csrfToken = '{{ csrf_token }}';
+    </script>
+</head>
 
-{% if magic %}
-    <p>{{magic.dice_value}}, {{magic.effect}}</p>
-{% else %}
-    <p>Ya done goofed up dawg</p>
-{% endif %}
-{% if magic.urls %}
-    <a href="{{magic.urls}}" target="_blank">{{magic.urls}}</a>
-{% endif %}
+<main>
+    <div class="wrapper center-contents box-container shadow">
+        <div id="start_roll" class="col-center box center-self space-box shadow">
+            <button class="btn" onclick="rollD6()">Roll a D6</button>
+        </div>
+
+        <div id="start_roll_result" hidden class="col-center box center-self box space-box shadow">
+            <p id="roll_para_value"></p>
+            <p id="roll_para"></p>
+            <a id="roll_para_url" target="_blank" hidden>Link to effect</a>
+        </div>
+
+        <div id="selection_input" hidden class="col-center box center-self space-box shadow">
+            <p>Good roll!! Select a starting value:</p>
+            <input class="input" type="number" id="d10_input"  min="1" max="100" step="1" placeholder="Select Starting value">
+        </div>
+
+
+        <div id="selection_roll" hidden class="col-center box center-self space-box shadow">
+            <button class="btn" onclick="rollD10()">Roll a D10</button>
+        </div>
+
+        <div id="selection_roll_result" hidden class="col-center box center-self space-box shadow">
+            <p id="roll_para_2_value"></p>
+            <p id="roll_para_2"></p>
+            <a id="roll_para_2_url" target="_blank">Link to effect</a>
+        </div>
+    </div>
+</main>
+
+

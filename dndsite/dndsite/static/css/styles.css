@@ -1,3 +1,78 @@
 .test {
     background-color: blue;
 }
+
+.wrapper {
+    display:grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-center {
+    grid-column: 2;
+}
+
+.box {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(110, 105, 105, 0.849);
+    border-width: 1px;
+    background-color: antiquewhite;
+}
+
+.box-container {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(110, 105, 105, 0.849);
+    border-width: 1px;
+    background-color: rgb(236, 235, 234);
+    width: 80%;
+}
+
+.center-contents {
+    align-items: center;
+    justify-content: center;
+}
+
+.center-self {
+    align-self: center;
+    justify-self: center;
+}
+
+.space-box {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(52, 45, 94, 0.849);
+    border-width: 1px;
+    background-color: rgb(136, 129, 201);
+    color:rgb(200, 199, 204);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(73, 63, 161)
+}
+
+.shadow {
+    box-shadow: 5px 5px 2px rgb(139, 137, 137);
+}
+
+.input {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(110, 105, 105, 0.849);
+    border-width: 2px;
+    background-color: rgb(133, 132, 141);
+    color:rgb(231, 229, 236);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;   
+}

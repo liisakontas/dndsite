@@ -16,12 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import HomeView, WeatherView, WildMagicView
+from .api import getwildmagic
 
-
-
+# page views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
     path('weather', WeatherView.as_view(), name='weather'),
     path('wildmagic', WildMagicView.as_view(), name='wildmagic')
+]
+
+# api views
+urlpatterns += [
+    path("api/getwildmagicvalue/<int:roll>/", getwildmagic, name="getwildmagic")
 ]
