@@ -23,5 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
     path('weather', WeatherView.as_view(), name='weather'),
-    path('wildmagicupload', WildMagicView.as_view(), name='wildmagic')
+    path('wildmagic', WildMagicView.as_view(), name='wildmagic')
 ]
